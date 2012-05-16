@@ -1,2 +1,11 @@
-valac ystockquote.vala ystock_sample.vala -o ystock_sample --pkg=libsoup-2.4
-valac --library=ystockquote -H ystockquote.h ystockquote.vala -X -fPIC -X -shared -o ystockquote.so --pkg=libsoup-2.4
+ystockquote is a Vala library which exposes APIs to get Stock data from Yahoo (finance.yahoo.com).
+
+http://greenido.wordpress.com/2009/12/22/yahoo-finance-hidden-api/ has a good reference of tags.
+http://code.google.com/p/yahoo-finance-managed/wiki/YahooFinanceAPIs provides lot more info on Yahoo Finance API.
+
+BUILD:
+run build.sh to build sample executable.
+run build_lib.sh to build shared library from the Vala code.
+
+USAGE:
+run "ystock_sample <symbol>" to get the stock data of the symbol.
