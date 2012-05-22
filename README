@@ -1,5 +1,8 @@
 ystockquote is a Vala library which exposes APIs to get Stock data from Yahoo (finance.yahoo.com).
 
+NOTE:
+Yahoo stock update is not real time udpate. It is 15 minutes delayed (in India). So I am planning to suspend the development of this library as of now.
+
 http://greenido.wordpress.com/2009/12/22/yahoo-finance-hidden-api/ has a good reference of tags.
 http://code.google.com/p/yahoo-finance-managed/wiki/YahooFinanceAPIs provides lot more info on Yahoo Finance API.
 
